@@ -1,0 +1,70 @@
+.nav {
+   display:flex; 
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  background:#ffff;
+  font-family:'poppins', sanserif;
+}
+a{
+  text-decoration:none;
+  padding:15px 18px;
+  font-size:14px;
+  color:#000;  
+}
+.logos, .logo{
+  padding:10px;
+}
+input{
+  font-family:'poppins', sanserif;
+  padding:8px;
+  height:20px;
+  width:20%;
+  border:none;
+  border-radius:5px;
+  background:#ddd;
+}
+.Tdiv{
+  font-family:'poppins', sanserif;
+  padding:30px;
+  background:linear-gradient(360deg,#9494dd,#fffc);
+  text-align:center;
+  border-bottom-left-radius:40px;
+  border-bottom-right-radius:40px;
+}
+.sub{
+   display:flex;  
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  padding:12px;
+}
+.Lcard{
+  font-family:'poppins', sanserif;
+  display:flex;  
+  flex-direction:column;
+  width:219px;  
+  height:260px;
+  margin:8px;
+  background:#ffff;
+  border-radius:20px;
+}
+img{  
+  height:146px;
+  overflow:hidden;
+  object-fit:cover;
+  width:100%;
+  border-radius:20px;
+}
+.desc{
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+  
+}
+.footer{
+  font-family:'poppins', sanserif;
+  text-align:center;
+  background:#dddd;
+  padding:10px;
+}
